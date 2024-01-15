@@ -20,7 +20,7 @@ function Nav() {
       </div>
 
       <div className='rightnav'>
-        <RestartAltIcon />
+        <a>  <RestartAltIcon />   </a>
         <button className='mode-change'> 
           <DarkModeIcon sx={{ color: 'orange', 'font-size':'25px' }} />   
         </button>
