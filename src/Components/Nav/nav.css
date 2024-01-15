@@ -1,0 +1,58 @@
+
+
+.navbar {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--lighttheme-background);
+    box-shadow: 0 0 2px black;
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+
+.rightnav{
+    display: flex;
+    align-items: center;
+}
+
+.Brand-name{
+    font-size: 1.7rem;
+}
+
+.serachbox{
+  padding: .5rem 1rem;
+  width: 30rem;
+  border-radius: 5px;
+  outline: none;
+  border: .2px solid rgba(23, 23, 23, 0.374);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.341);
+}
+
+.mode-change{
+    width: 28px;
+    outline: none;
+    border: none;
+    height: 28px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.user-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(149, 13, 246);
+}
