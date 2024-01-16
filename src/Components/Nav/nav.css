@@ -25,13 +25,27 @@
     font-size: 1.7rem;
 }
 
+.Searcharea{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 30rem;
+}
+
 .serachbox{
   padding: .5rem 1rem;
-  width: 30rem;
+  width: 100%;
   border-radius: 5px;
   outline: none;
   border: .2px solid rgba(23, 23, 23, 0.374);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.341);
+}
+
+.searchicon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: .3rem;
 }
 
 .mode-change{
@@ -57,4 +71,19 @@
     border-radius: 50%;
     color: white;
     background-color: rgb(149, 13, 246);
+}
+
+
+
+
+@media (max-width: 800px) {
+   .Searcharea{
+    width: 20rem;
+   }
+}
+
+@media (max-width: 625px) {
+   .Searcharea{
+    width: 20rem;
+   }
 }
